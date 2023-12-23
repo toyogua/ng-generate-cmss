@@ -4,7 +4,6 @@ import {ApiService} from "./api.service";
 import {Observable} from "rxjs";
 import {IPaginationAndFilter} from "../interfaces";
 import {ResponseModel, Usuario} from "../../../../../src/app/models";
-import {capitalize} from "@angular-devkit/core/src/utils/strings";
 
 @Injectable({
   providedIn: 'root'

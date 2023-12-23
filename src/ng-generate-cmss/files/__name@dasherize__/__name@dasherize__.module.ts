@@ -7,7 +7,6 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {SharedModule} from "../../_metronic/shared/shared.module";
 import {TranslateModule} from "@ngx-translate/core";
 import {InlineSVGModule} from "ng-inline-svg-2";
-import {capitalize} from "@angular-devkit/core/src/utils/strings";
 
 const routes: Routes = [
   {

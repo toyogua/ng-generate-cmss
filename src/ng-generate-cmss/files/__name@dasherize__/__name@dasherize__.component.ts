@@ -11,7 +11,6 @@ import {EActionPermission} from "../../enums";
 import Swal from "sweetalert2";
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {NgbModal, NgbModalOptions} from "@ng-bootstrap/ng-bootstrap";
-import {camelize, capitalize} from "@angular-devkit/core/src/utils/strings";
 
 @Component({
   selector: 'app-relation-type',

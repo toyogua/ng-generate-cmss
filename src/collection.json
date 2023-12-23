@@ -5,6 +5,11 @@
       "description": "Generate component sass file html file module file and service.",
       "factory": "./ng-generate-cmss/index#ngGenerateCmss",
       "schema": "./schema.json"
+    },
+    "ng-add": {
+      "description": "Generate component sass file html file module file and service.",
+      "factory": "./ng-generate-cmss/index#ngGenerateCmss",
+      "schema": "./schema.json"
     }
   }
 }

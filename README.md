@@ -1,6 +1,6 @@
 # Getting Started With Schematics
 
-### This schematic to create component, module, template and service
+### This schematic to create component, module, service and sass files for Angular
 ### Just set name of Entity and path for new files
 
 

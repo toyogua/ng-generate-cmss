@@ -1,9 +1,9 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {Menu, RelationTypeModel, Usuario} from "../../models";
+import {Menu} from "../../models";
 import {first, Subscription} from "rxjs";
 import {IPaginationAndFilter} from "../../interfaces";
 import {Direction} from "../../enums/direction.enum";
-import {AuthService, LoadingService, RelationTypeService, UsuarioService} from "../../services";
+import {AuthService, LoadingService} from "../../services";
 import {ToastrService} from "ngx-toastr";
 import {Router} from "@angular/router";
 import {HttpErrorResponse} from "@angular/common/http";

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sjtrimble/scss-scaffold"
+    "url": "https://github.com/toyogua/ng-generate-cmss"
   },
   "keywords": [
     "schematics",

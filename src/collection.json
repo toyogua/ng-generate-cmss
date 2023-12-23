@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-generate-cmss": {
+      "description": "Generate component sass file html file module file and service.",
+      "factory": "./ng-generate-cmss/index#ngGenerateCmss",
+      "schema": "./schema.json"
+    }
+  }
+}

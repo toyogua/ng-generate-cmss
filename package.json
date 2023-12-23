@@ -1,0 +1,30 @@
+{
+  "name": "ng-generate-cmss",
+  "version": "0.0.0",
+  "description": "A blank schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjtrimble/scss-scaffold"
+  },
+  "keywords": [
+    "schematics",
+    "angular"
+  ],
+  "author": "Jose Ramirez",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^17.0.8",
+    "@angular-devkit/schematics": "^17.0.8",
+    "typescript": "~5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.18.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine": "^5.0.0"
+  }
+}

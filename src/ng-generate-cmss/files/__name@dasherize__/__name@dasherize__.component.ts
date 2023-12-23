@@ -17,7 +17,7 @@ import {NgbModal, NgbModalOptions} from "@ng-bootstrap/ng-bootstrap";
   templateUrl: './relation-type.component.html',
   styleUrls: ['./relation-type.component.scss']
 })
-export class <%= camelize(name) %>Component implements OnInit, OnDestroy {
+export class <%= capitalize(name) %>Component implements OnInit, OnDestroy {
   modalTitle = 'Menu'
   closeResult = '';
   tempMenus: Menu[] = [];

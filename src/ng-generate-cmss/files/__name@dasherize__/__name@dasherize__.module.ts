@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from "@angular/router";
-import {<%= capitalize(name) %>Component} from './__name@dasherize__.component';
+import {<%= capitalize(name) %>Component} from './<%= dasherize(name) %>.component';
 import {NgbPagination, NgbPaginationNext, NgbPaginationPrevious} from "@ng-bootstrap/ng-bootstrap";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {SharedModule} from "../../_metronic/shared/shared.module";

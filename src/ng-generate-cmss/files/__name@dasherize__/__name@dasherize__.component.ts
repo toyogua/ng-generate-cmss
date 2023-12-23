@@ -13,9 +13,9 @@ import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {NgbModal, NgbModalOptions} from "@ng-bootstrap/ng-bootstrap";
 
 @Component({
-  selector: 'app-relation-type',
-  templateUrl: './relation-type.component.html',
-  styleUrls: ['./relation-type.component.scss']
+  selector: 'app-<%= dasherize(name) %>',
+  templateUrl: './<%= dasherize(name) %>.component.html',
+  styleUrls: ['./<%= dasherize(name) %>.component.scss']
 })
 export class <%= capitalize(name) %>Component implements OnInit, OnDestroy {
   modalTitle = 'Menu'

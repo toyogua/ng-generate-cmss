@@ -12,15 +12,9 @@
         "index": 0
       },
       "x-prompt": "Enter name to file?"
-    },
-    "path": {
-      "type": "string",
-      "description": "The destination folder of the files to create.",
-      "x-prompt": "Enter the destination folder:"
     }
   },
   "required": [
-    "name",
-    "path"
+    "name"
   ]
 }

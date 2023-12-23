@@ -12,9 +12,19 @@
         "index": 0
       },
       "x-prompt": "Enter name to file?"
+    },
+    "path": {
+      "type": "string",
+      "description": "Path to create the file",
+      "$default": {
+        "$source": "argv",
+        "index": 1
+      },
+      "x-prompt": "Enter path to create the file?"
     }
   },
   "required": [
-    "name"
+    "name",
+    "path"
   ]
 }

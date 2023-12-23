@@ -4,7 +4,10 @@
 ### Just set name of Entity and path for new files
 
 
-
+### Usage just run command
+```bash 
+ng add ng-generate-cmss
+````
 This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
 
 
